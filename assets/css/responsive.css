@@ -1,0 +1,978 @@
+/* =========================================================
+   DREAM WORLD REAL ESTATE - RESPONSIVE CSS
+========================================================= */
+
+/* =========================
+   LARGE DEVICES
+========================= */
+
+@media(max-width:1400px){
+
+    .hero-content h1{
+        font-size:74px;
+    }
+
+}
+
+/* =========================
+   LAPTOP DEVICES
+========================= */
+
+@media(max-width:1200px){
+
+    .hero-content h1{
+        font-size:62px;
+    }
+
+    .section-title h2{
+        font-size:50px;
+    }
+
+}
+
+/* =========================
+   TABLET DEVICES
+========================= */
+
+@media(max-width:992px){
+
+    /* Navbar */
+
+    .navbar-collapse{
+        background:white;
+        padding:25px;
+        border-radius:25px;
+        margin-top:20px;
+        box-shadow:0 20px 40px rgba(0,0,0,0.08);
+    }
+
+    .nav-link{
+        margin:12px 0;
+    }
+
+    .contact-btn{
+        margin-left:0;
+        display:inline-block;
+        margin-top:15px;
+    }
+
+    /* Hero */
+
+    .hero-section{
+        text-align:center;
+    }
+
+    .hero-content{
+        margin:auto;
+    }
+
+    .hero-content h1{
+        font-size:54px;
+    }
+
+    .hero-content p{
+        margin:auto;
+        margin-top:25px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    /* Section */
+
+    .section-title h2{
+        font-size:44px;
+    }
+
+    /* Property */
+
+    .property-content h4{
+        font-size:28px;
+    }
+
+}
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+@media(max-width:768px){
+
+    /* Section Padding */
+
+    .section-padding{
+        padding:80px 0;
+    }
+
+    /* Hero */
+
+    .hero-section{
+        padding-top:120px;
+        min-height:auto;
+        padding-bottom:100px;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+        line-height:1.3;
+    }
+
+    .hero-content p{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .white-btn{
+        margin-left:0;
+    }
+
+    /* Section Title */
+
+    .section-title{
+        margin-bottom:50px;
+    }
+
+    .section-title h2{
+        font-size:36px;
+    }
+
+    .section-title p{
+        font-size:15px;
+    }
+
+    /* Cards */
+
+    .category-card{
+        padding:35px 25px;
+    }
+
+    .category-card h4{
+        font-size:26px;
+    }
+
+    .property-image img{
+        height:250px;
+    }
+
+    .property-content{
+        padding:25px;
+    }
+
+    .property-content h4{
+        font-size:26px;
+    }
+
+    .property-price{
+        font-size:24px;
+    }
+
+    .property-features{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    /* Footer */
+
+    .footer-section{
+        text-align:center;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE DEVICES
+========================= */
+
+@media(max-width:576px){
+
+    /* Navbar */
+
+    .navbar-brand img{
+        height:58px;
+    }
+
+    .custom-navbar{
+        padding:12px 0;
+    }
+
+    /* Hero */
+
+    .hero-content h1{
+        font-size:34px;
+    }
+
+    .hero-tag{
+        font-size:12px;
+        padding:10px 20px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
+    /* Buttons */
+
+    .gold-btn,
+    .white-btn,
+    .property-btn{
+        width:100%;
+        text-align:center;
+    }
+
+    /* Section */
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    /* Cards */
+
+    .category-card{
+        border-radius:25px;
+    }
+
+    .property-card{
+        border-radius:25px;
+    }
+
+    .property-content h4{
+        font-size:24px;
+    }
+
+    /* Footer */
+
+    .footer-logo{
+        height:75px;
+    }
+
+}
+
+/* =========================
+   EXTRA SMALL DEVICES
+========================= */
+
+@media(max-width:400px){
+
+    .hero-content h1{
+        font-size:30px;
+    }
+
+    .section-title h2{
+        font-size:28px;
+    }
+
+    .category-card h4{
+        font-size:22px;
+    }
+
+    .property-content h4{
+        font-size:22px;
+    }
+
+}
+/* =========================
+   ABOUT SECTION RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+    .experience-card{
+        right:20px;
+        bottom:20px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .experience-card{
+        position:relative;
+        right:0;
+        bottom:0;
+        margin-top:25px;
+        width:100%;
+    }
+
+}/* =========================
+   STATS RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    .stat-card{
+        padding:35px 25px;
+    }
+
+    .stat-card h2{
+        font-size:42px;
+    }
+
+}/* =========================
+   TEAM RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    .team-image img{
+        height:350px;
+    }
+
+    .team-content h4{
+        font-size:26px;
+    }
+
+}/* =========================
+   PROJECTS RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    .project-image img{
+        height:240px;
+    }
+
+    .project-content h4{
+        font-size:26px;
+    }
+
+}/* =========================
+   TESTIMONIALS RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+    .testimonial-card{
+        padding:28px;
+    }
+
+    .testimonial-top h4{
+        font-size:22px;
+    }
+
+    .review-btn{
+        width:100%;
+        text-align:center;
+    }
+
+}/* =========================
+   CTA RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+    .cta-wrapper{
+        padding:50px 40px;
+        text-align:center;
+    }
+
+    .cta-buttons{
+        margin-top:40px;
+        align-items:center;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .cta-content h2{
+        font-size:38px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .cta-wrapper{
+        padding:40px 25px;
+        border-radius:30px;
+    }
+
+    .cta-content h2{
+        font-size:30px;
+    }
+
+    .cta-btn,
+    .cta-btn-outline{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+
+/* =========================
+   FOOTER RESPONSIVE FIX
+========================= */
+
+@media(max-width:992px){
+
+    .footer-section{
+        text-align:center;
+    }
+
+    .footer-about{
+        padding-right:0;
+    }
+
+    .footer-about p{
+        margin:auto;
+        margin-bottom:30px;
+    }
+
+    .footer-section h4::after{
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .footer-social{
+        justify-content:center;
+    }
+
+    .footer-bottom{
+        text-align:center;
+    }
+
+    .footer-bottom .text-lg-end{
+        margin-top:12px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .footer-section{
+        padding-top:80px;
+    }
+
+    .footer-logo{
+        height:75px;
+    }
+
+    .footer-section h4{
+        font-size:26px;
+    }
+
+}
+/* =========================
+   MOBILE MENU RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+.mobile-bottom-menu{
+    display:none !important;
+}}
+   /* .mobile-bottom-menu{
+        display:flex;
+    }
+
+    body{
+        padding-bottom:100px;
+    }*\
+
+/* =========================
+   LOADER RESPONSIVE
+========================= */
+
+@media(max-width:576px){
+
+    .loader-logo{
+        width:100px;
+    }
+
+    .loader-line{
+        width:200px;
+    }
+
+    .loader-wrapper h3{
+        font-size:26px;
+    }
+
+    .loader-wrapper p{
+        font-size:14px;
+    }
+
+}
+/* =========================
+   HERO FLOATING CARD
+========================= */
+
+@media(max-width:1200px){
+
+    .floating-property-card{
+        width:300px;
+        right:30px;
+    }
+
+}
+
+@media(max-width:992px){
+
+    .floating-property-card{
+        display:none;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero-shape{
+        filter:blur(60px);
+    }
+
+}
+/* =========================================================
+   PAGE BANNER RESPONSIVE
+========================================================= */
+
+@media(max-width:1200px){
+
+    .page-banner-content h1{
+        font-size:68px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .page-banner{
+        min-height:60vh;
+        padding-top:140px;
+    }
+
+    .page-banner-content h1{
+        font-size:46px;
+    }
+
+    .page-banner-content p{
+        font-size:16px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .page-banner-content h1{
+        font-size:34px;
+    }
+
+    .page-banner-content span{
+        font-size:12px;
+    }
+
+}/* =========================================================
+   TEAM PAGE RESPONSIVE
+========================================================= */
+
+@media(max-width:992px){
+
+    .founder-image{
+        margin-bottom:20px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .team-image img{
+        height:360px;
+    }
+
+    .team-content h4{
+        font-size:26px;
+    }
+
+    .founder-signature h4{
+        font-size:28px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .team-card{
+        border-radius:28px;
+    }
+
+    .team-image img{
+        height:320px;
+    }
+
+    .team-content{
+        padding:26px;
+    }
+
+}
+/* =========================================================
+   PROJECTS PAGE RESPONSIVE
+========================================================= */
+
+@media(max-width:768px){
+
+    .project-image img{
+        height:240px;
+    }
+
+    .project-content{
+        padding:28px;
+    }
+
+    .project-content h4{
+        font-size:26px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .project-card{
+        border-radius:28px;
+    }
+
+    .project-content{
+        padding:24px;
+    }
+
+    .project-content h4{
+        font-size:24px;
+    }
+
+}/* =========================================================
+   PRODUCT PAGE RESPONSIVE
+========================================================= */
+
+@media(max-width:768px){
+
+    .property-image img{
+        height:240px;
+    }
+
+    .property-content{
+        padding:26px;
+    }
+
+    .property-content h4{
+        font-size:24px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .property-card{
+        border-radius:28px;
+    }
+
+    .property-content{
+        padding:22px;
+    }
+
+    .property-info{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .property-btn{
+        width:100%;
+    }
+
+}
+/* =========================================================
+   MOBILE PREMIUM DROPDOWN
+========================================================= */
+
+/* =========================================================
+   GLOBAL NAVBAR RESPONSIVE
+========================================================= */
+
+
+/* =========================================================
+   FINAL RESPONSIVE NAVBAR
+========================================================= */
+
+/* =========================================================
+   RESPONSIVE CONTACT BUTTON
+========================================================= */
+
+/* ==================================
+   MOBILE NAVBAR FIX
+================================== */
+/* ==================================
+   FINAL MOBILE NAVBAR
+================================== */
+
+@media (max-width:991px){
+
+    /* Navbar */
+
+    .custom-navbar{
+        min-height:75px !important;
+        padding:8px 0 !important;
+    }
+
+    .custom-navbar .container{
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
+
+    .navbar-brand img{
+        height:60px !important;
+        width:auto !important;
+    }
+
+    .navbar-toggler{
+        border:none !important;
+        box-shadow:none !important;
+        padding:4px 8px !important;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow:none !important;
+    }
+
+    /* Mobile Menu Box */
+
+    .navbar-collapse{
+
+        background:#fff !important;
+
+        margin-top:10px !important;
+
+        border-radius:18px !important;
+
+        padding:12px !important;
+
+        box-shadow:0 10px 30px rgba(0,0,0,.08) !important;
+
+        max-height:80vh !important;
+
+        overflow-y:auto !important;
+
+        overflow-x:hidden !important;
+    }
+
+    .navbar-nav{
+        gap:4px;
+    }
+
+    .navbar-nav .nav-link{
+
+        font-size:15px !important;
+
+        font-weight:600 !important;
+
+        padding:12px 15px !important;
+
+        text-align:center !important;
+
+        display:block !important;
+
+        width:100% !important;
+
+        height:auto !important;
+
+        line-height:normal !important;
+    }
+
+    /* Contact Button */
+
+    .contact-btn{
+
+        width:100% !important;
+
+        height:50px !important;
+
+        display:flex !important;
+
+        align-items:center !important;
+
+        justify-content:center !important;
+
+        text-align:center !important;
+
+        margin-top:12px !important;
+
+        padding:0 20px !important;
+    }
+
+    /* Dropdown */
+
+    .premium-nav-dropdown{
+        position:relative;
+        width:100%;
+    }
+
+    .premium-dropdown-menu{
+
+        position:static !important;
+
+        width:100% !important;
+
+        min-width:100% !important;
+
+        left:auto !important;
+
+        top:auto !important;
+
+        transform:none !important;
+
+        background:#f9f9f9 !important;
+
+        border-radius:16px !important;
+
+        box-shadow:none !important;
+
+        margin-top:8px !important;
+
+        display:block !important;
+
+        opacity:1 !important;
+
+        visibility:visible !important;
+
+        max-height:0 !important;
+
+        overflow:hidden !important;
+
+        padding:0 !important;
+
+        transition:max-height .4s ease;
+    }
+
+    .premium-nav-dropdown.active .premium-dropdown-menu{
+
+        max-height:700px !important;
+
+        overflow-y:auto !important;
+
+        padding:10px !important;
+    }
+
+    .premium-dropdown-item{
+
+        padding:12px !important;
+
+        border-radius:12px !important;
+
+        margin-bottom:8px !important;
+    }
+
+    .dropdown-icon{
+
+        width:45px !important;
+
+        height:45px !important;
+    }
+
+    .navbar-collapse.show{
+        animation:mobileMenu .35s ease;
+    }
+}
+
+/* Menu Animation */
+
+@keyframes mobileMenu{
+
+    from{
+        opacity:0;
+        transform:translateY(-15px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+/* ==================================
+   MOBILE FOOTER LOGO CENTER
+================================== */
+
+@media (max-width:768px){
+
+    .footer-about{
+        text-align:center !important;
+        align-items:center !important;
+    }
+
+    .footer-logo{
+        display:block !important;
+        margin:0 auto 25px auto !important;
+    }
+
+    .footer-about img{
+        display:block !important;
+        margin:0 auto 25px auto !important;
+    }
+
+}
+/* Global Fix */
+
+html,
+body{
+    
+    overflow-x:hidden !important;
+}
+
+/* ==================================
+   MOBILE HERO TEXT PROFESSIONAL
+================================== */
+
+@media (max-width:768px){
+
+    .hero-content{
+        max-width:100% !important;
+        padding-top:60px !important;
+    }
+
+    .hero-title,
+    .hero-content h1{
+
+        font-size:36px !important;
+
+        line-height:1.2 !important;
+
+        font-weight:700 !important;
+
+        margin-bottom:15px !important;
+    }
+
+    .hero-description,
+    .hero-content p{
+
+        font-size:15px !important;
+
+        line-height:1.7 !important;
+
+        margin-bottom:25px !important;
+
+        max-width:95% !important;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .hero-title,
+    .hero-content h1{
+
+        font-size:32px !important;
+
+        line-height:1.25 !important;
+    }
+
+    .hero-description,
+    .hero-content p{
+
+        font-size:14px !important;
+
+        line-height:1.6 !important;
+    }
+
+}
